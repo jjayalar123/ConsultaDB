@@ -15,15 +15,15 @@
     <h1> Seleccione Procedimiento </h1>  <BR>
 
         <div>
-          <a href="ConsultaUno.html">  <button type="button" class="btn btn-primary btn-lg" >  CONSULTA UNO  </button>  </a>
+          <a href="ConsultaUnoDetallesProducto.html">  <button type="button" class="btn btn-primary btn-lg" >  CONSULTA UNO [Detalles Producto]  </button>  </a>
         </div>
     <BR>
         <div>
-          <a href="ConsultaDos.html">  <button type="button" class="btn btn-primary btn-lg" >  CONSULTA DOS  </button>  </a>
+          <a href="ConsultaDosMostrarMonedas.html">  <button type="button" class="btn btn-primary btn-lg" >  CONSULTA DOS [Mostrar Monedas]  </button>  </a>
         </div>
     <BR>
         <div>
-          <a href="ConsultaTres.html">  <button type="button" class="btn btn-primary btn-lg" >  CONSULTA TRES  </button>  </a>
+          <a href="ConsultaTresMostrarTablas.html">  <button type="button" class="btn btn-primary btn-lg" >  CONSULTA TRES [Mostrar Tablas]  </button>  </a>
         </div>
     <BR>
         <div>
