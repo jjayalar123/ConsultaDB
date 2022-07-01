@@ -38,6 +38,10 @@
         <div>
           <a href="EliminarTablas.html">  <button type="button" class="btn btn-primary btn-lg" >  ELIMINAR TABLAS  </button>  </a>
         </div>
+         <div>
+          <a href="InsertarProducto.html">  <button type="button" class="btn btn-primary btn-lg" >  Insertar Producto </button>  </a>
+          </div>
+
     <BR>
 
   </body>  <!--  FIN DE BODY-->
