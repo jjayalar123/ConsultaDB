@@ -39,6 +39,11 @@
           <a href="EliminarTablas.html">  <button type="button" class="btn btn-primary btn-lg" >  ELIMINAR TABLAS  </button>  </a>
         </div>
     <BR>
+        <div>
+          <a href="InsertarMoneda.html">  <button type="button" class="btn btn-primary btn-lg" >  INSERTAR MONEDA  </button>  </a>
+        </div>
+    <BR>
+
 
   </body>  <!--  FIN DE BODY-->
 </html>
