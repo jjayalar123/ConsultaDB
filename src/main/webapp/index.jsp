@@ -27,7 +27,7 @@
         </div>
     <BR>
         <div>
-          <a href="InsertarTablas.html"> <button type="button" class="btn btn-primary btn-lg" >  INSERTAR TABLAS  </button> </a>
+          <a href="InsertarClientes.html"> <button type="button" class="btn btn-primary btn-lg" >  INSERTAR TABLAS  </button> </a>
         </div>
     <BR>
         <div>
