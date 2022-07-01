@@ -1,12 +1,15 @@
 
 
+import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletConfig;
+import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebInitParam;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
+import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -34,7 +37,7 @@ public class InsertarClientes extends HttpServlet {
     }
 
     @Override
-    public void doPost(HttpServletRequest req, HttpServletResponse res) {
+    public void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
         try {
             Statement stmt = connection.createStatement();
             res.setContentType("text/html");
@@ -56,6 +59,9 @@ public class InsertarClientes extends HttpServlet {
         } catch (Exception e) {
             System.err.println(e.getClass().getName() + ": " + e.getMessage());
         }
+
+        RequestDispatcher view = req.getRequestDispatcher("/index.jsp");
+        view.forward(req, res);
 
     }
 }
